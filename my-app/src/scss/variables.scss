@@ -1,14 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+
+
+//***************** colors ****************
+
+
+//***************** Directional ****************
 
 
 
-// colors 
+//***************** Typography ****************
+
+$fontFamily: font-family 'Manrope';
+$textUppercase:text-transform uppercase;
+$textStyle:font-style normal;
 
 
-// dirctional
+//    *** typograhy headings ****
+$headingFontWeight:font-weight 700;
+
+//    *** typograhy heading h1 ****
+$headingH1:font-size 56px;
+$headingH1-LineHeight: line-height 58px;
+$headingH1-LetterSpacing: letter-spacing 2px;
+
+//    *** typograhy heading h2 ****
+$heaidngH2:font-size 40px;
+$headingH2-LineHeight: line-height 44px;
+$headingH2-LetterSpacing: letter-spacing  1.42857px;
+//    *** typograhy heading h3 ****
+$headingH3:font-size 32px;
+$headingH3-LineHeight: line-height 38px;
+$headingH3-LetterSpacing: letter-spacing   1.14286px;
+//    *** typograhy heading h4 ****
+$headingH4:font-size 28px;
+$headingH4-LineHeight: line-height 38px;
+$headingH4-LetterSpacing: letter-spacing  2px;
+
+//    *** typograhy heading h5 ****
+$headingH5:font-size 24px;
+$headingH5-LineHeight: line-height 33px;
+$headingH5-LetterSpacing: letter-spacing   1.71429px;
+
+//    *** typograhy heading h6 ****
+$headingH6:font-size 18px;
+$headingH1-LineHeight: line-height 25px;
+$headingH2-LetterSpacing: letter-spacing  1.42857px;
+
+//    *** typograhy Overline ****
+$body-overlineFontSize:font-size 14px;
+$overlineLineHeight: line-height 19px;
+$overlineLetterSpacing: letter-spacing  10px;
+
+//    *** typograhy subtitle ****
+$bodyFontSize:font-size 13px;
+$headingH1-LineHeight: line-height 25px;
+$headingH2-LetterSpacing: letter-spacing 0.928571px;
 
 
-//typograhpy
+//    *** typograhy body ****
+$bodyFontSize:font-size 15px;
+$bodyLineHeight: line-height 25px;
 
-//btns
+
+
+
+//***************** Buttons ****************
+$btn-default-1-color: #D87D4A;
+$btn-default-1-hover: #FBAF85;
+
+$btn-default-2-color: border 1px solid #000000;
+$btn-default-2-hover: #000000;
+
+$btn-default-3-color: #000000;
+$btn-default-3-hover: #D87D4A ;
+
+
+//***************** Form Elements ****************
+
+$textFieldDefault-Border: border 1px solid #CFCFCF;
+
+$textFieldDefault-Active: border 1px solid #D87D4A;
+
+$textFieldDefault-Hover: border 1px solid #D87D4A;
+
+$textFieldDefault-Error: border 1px solid #CD2C2C;
+
 
 
