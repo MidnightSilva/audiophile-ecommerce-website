@@ -1,7 +1,7 @@
 import './App.css';
 import {  Routes, Route } from "react-router-dom";
 import Home from "./pages/Home"
-import Navi from "./components/nav"
+import Nav from "./components/Nav"
 import Cart from "./components/Cart"
 import Checkout from "./pages/Checkout"
 import CategoryHeadphones from "./pages/CategoryHeadphones"
@@ -17,7 +17,7 @@ import "./scss/variables.scss"
 function App() {
   return (
     <div className="App">
-      <Navi />
+      <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<Cart />} />

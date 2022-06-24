@@ -5,3 +5,21 @@
     display: flex;
     justify-content: space-around;
 }
+
+.nav-icon{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+.background{
+    background-color: gray;
+    height: 100vh;
+    position: absolute;
+}
+
+.modal{
+    background-color: white;
+    height: 40%;
+    width: 8rem;
+}
