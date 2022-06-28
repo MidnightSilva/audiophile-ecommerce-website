@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap');
+@import url('./Nav.scss');
 
+a{text-decoration: none;}
 
+* { margin: 0; padding: 0; }
 //***************** colors ****************
 
 
@@ -10,56 +13,56 @@
 
 //***************** Typography ****************
 
-$fontFamily: font-family 'Manrope';
-$textUppercase:text-transform uppercase;
-$textStyle:font-style normal;
+$fontFamily: 'Manrope';
+$textUppercase: uppercase;
+$textStyle: normal;
 
 
 //    *** typograhy headings ****
-$headingFontWeight:font-weight 700;
+$headingFontWeight: 700;
 
 //    *** typograhy heading h1 ****
-$headingH1:font-size 56px;
-$headingH1-LineHeight: line-height 58px;
-$headingH1-LetterSpacing: letter-spacing 2px;
+$headingH1: 56px;
+$headingH1-LineHeight: 58px;
+$headingH1-LetterSpacing: 2px;
 
 //    *** typograhy heading h2 ****
-$heaidngH2:font-size 40px;
-$headingH2-LineHeight: line-height 44px;
-$headingH2-LetterSpacing: letter-spacing  1.42857px;
+$heaidngH2:40px;
+$headingH2-LineHeight: 44px;
+$headingH2-LetterSpacing: 1.42857px;
 //    *** typograhy heading h3 ****
-$headingH3:font-size 32px;
-$headingH3-LineHeight: line-height 38px;
-$headingH3-LetterSpacing: letter-spacing   1.14286px;
+$headingH3:2px;
+$headingH3-LineHeight: 38px;
+$headingH3-LetterSpacing: 1.14286px;
 //    *** typograhy heading h4 ****
-$headingH4:font-size 28px;
-$headingH4-LineHeight: line-height 38px;
-$headingH4-LetterSpacing: letter-spacing  2px;
+$headingH4:28px;
+$headingH4-LineHeight: 38px;
+$headingH4-LetterSpacing: 2px;
 
 //    *** typograhy heading h5 ****
-$headingH5:font-size 24px;
-$headingH5-LineHeight: line-height 33px;
-$headingH5-LetterSpacing: letter-spacing   1.71429px;
+$headingH5:24px;
+$headingH5-LineHeight: 33px;
+$headingH5-LetterSpacing: 1.71429px;
 
 //    *** typograhy heading h6 ****
-$headingH6:font-size 18px;
-$headingH1-LineHeight: line-height 25px;
-$headingH2-LetterSpacing: letter-spacing  1.42857px;
+$headingH6:18px;
+$headingH6-LineHeight: 25px;
+$headingH6-LetterSpacing:  1.28571px;
 
 //    *** typograhy Overline ****
-$body-overlineFontSize:font-size 14px;
-$overlineLineHeight: line-height 19px;
-$overlineLetterSpacing: letter-spacing  10px;
+$body-overlineFontSize:14px;
+$overlineLineHeight: 19px;
+$overlineLetterSpacing:  10px;
 
 //    *** typograhy subtitle ****
-$bodyFontSize:font-size 13px;
-$headingH1-LineHeight: line-height 25px;
-$headingH2-LetterSpacing: letter-spacing 0.928571px;
+$subTitleFontSize: 13px;
+$headingH1-LineHeight: 25px;
+$headingH2-LetterSpacing: 0.928571px;
 
 
 //    *** typograhy body ****
-$bodyFontSize:font-size 15px;
-$bodyLineHeight: line-height 25px;
+$bodyFontSize: 15px;
+$bodyLineHeight: 25px;
 
 
 
